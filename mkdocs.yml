@@ -1,0 +1,118 @@
+site_name: IS Audit Playbook
+site_description: A practitioner's open-source reference for Information Systems Audit — checklists, methodology, evidence templates, and reporting for enterprise IT environments.
+site_author: Saurabh Anand
+site_url: https://YOUR-USERNAME.github.io/IS-Audit-Playbook
+
+repo_name: IS-Audit-Playbook
+repo_url: https://github.com/YOUR-USERNAME/IS-Audit-Playbook
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.annotate
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR-USERNAME
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/YOUR-HANDLE
+
+nav:
+  - Home: index.md
+  - Methodology:
+    - Audit Lifecycle: 01-Audit-Methodology/audit-lifecycle.md
+    - Risk-Based Approach: 01-Audit-Methodology/risk-based-approach.md
+    - Audit Universe: 01-Audit-Methodology/audit-universe.md
+  - Standards & Frameworks:
+    - ISACA COBIT 2019: 02-Standards-and-Frameworks/ISACA-COBIT.md
+    - ISO/IEC 27001:2022: 02-Standards-and-Frameworks/ISO-27001.md
+    - RBI Cyber Framework: 02-Standards-and-Frameworks/RBI-Cyber-Framework.md
+    - CERT-In Directions: 02-Standards-and-Frameworks/CERT-In-Directions.md
+    - NIST CSF 2.0: 02-Standards-and-Frameworks/NIST-CSF.md
+  - Asset Audit Guides:
+    - Application Audit:
+      - Checklist: 03-Asset-Audit-Guides/Application-Audit/checklist.md
+      - Evidence Collection: 03-Asset-Audit-Guides/Application-Audit/evidence-collection.md
+      - Sample Findings: 03-Asset-Audit-Guides/Application-Audit/sample-findings.md
+    - OS Audit:
+      - Windows Server: 03-Asset-Audit-Guides/OS-Audit/windows-server.md
+      - Linux Systems: 03-Asset-Audit-Guides/OS-Audit/linux-systems.md
+    - Network Devices:
+      - Firewall Audit: 03-Asset-Audit-Guides/Network-Devices/firewall-audit.md
+      - Switch & Router: 03-Asset-Audit-Guides/Network-Devices/switch-router-audit.md
+    - Active Directory:
+      - AD Audit Guide: 03-Asset-Audit-Guides/Active-Directory/ad-audit-guide.md
+      - Privileged Access: 03-Asset-Audit-Guides/Active-Directory/privileged-access.md
+      - GPO Review: 03-Asset-Audit-Guides/Active-Directory/gpo-review.md
+    - Database Audit:
+      - Oracle Audit: 03-Asset-Audit-Guides/Database-Audit/oracle-audit.md
+      - MSSQL Audit: 03-Asset-Audit-Guides/Database-Audit/mssql-audit.md
+    - Cloud Audit:
+      - Azure Audit: 03-Asset-Audit-Guides/Cloud-Audit/azure-audit.md
+      - AWS Audit: 03-Asset-Audit-Guides/Cloud-Audit/aws-audit.md
+  - ITGC Audit:
+    - Access Management: 04-ITGC-Audit/access-management.md
+    - Change Management: 04-ITGC-Audit/change-management.md
+    - Backup & Recovery: 04-ITGC-Audit/backup-recovery.md
+    - Incident Management: 04-ITGC-Audit/incident-management.md
+  - Audit Reporting:
+    - Report Structure: 05-Audit-Reporting/report-structure.md
+    - Finding Writing Guide: 05-Audit-Reporting/finding-writing-guide.md
+    - Risk Rating Matrix: 05-Audit-Reporting/risk-rating-matrix.md
+    - Audit Report Template: 05-Audit-Reporting/templates/audit-report-template.md
+  - Interview Prep:
+    - IS Audit Q&A: 06-Interview-QnA/IS-audit-interview-questions.md
+    - CISA/CISM Prep: 06-Interview-QnA/CISA-CISM-prep.md
