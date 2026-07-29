@@ -12,7 +12,7 @@ An IS audit follows a structured lifecycle to ensure objectivity, completeness, 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │  PHASE 1     PHASE 2       PHASE 3       PHASE 4       PHASE 5      │
-│  Planning  → Fieldwork  → Analysis  →  Reporting  →  Follow-up     │
+│  Planning  → Fieldwork  → Analysis  →  Reporting  →  Follow-up      │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
