@@ -14,7 +14,7 @@
 This playbook is built from real-world IS audit experience in Banking and Financial Services environments. It is designed to serve:
 
 - **IS Auditors** looking for structured checklists and evidence guides
-- **SOC / Security professionals** transitioning into IS audit roles
+- **Security professionals** performing IS audits
 - **IT teams** seeking to understand what auditors look for
 - **Students and aspirants** preparing for CISA, CISM, or IS audit interviews
 
